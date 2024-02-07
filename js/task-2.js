@@ -3,11 +3,11 @@
 // В іншому випадку функція повинна повернути весь новий масив.
 
 function makeArray(firstArray, secondArray, maxLength) {
-  resultArray = firstArray.concat(secondArray);
-  if (resultArray.length > maxLength) {
-    return resultArray.slice(0, maxLength);
+  const makeArray = firstArray.concat(secondArray);
+  if (makeArray.length > maxLength) {
+    return makeArray.slice(0, maxLength);
   } else {
-    return resultArray;
+    return makeArray;
   }
 }
 
